@@ -43,35 +43,35 @@ O Indexer é um programa que realiza a contagem de palavras em documentos de tex
   
   
 
-#### Windows:
+### Windows:
 
   
 
 1.  **Baixar o Instalador:**
 
-- Acesse o site oficial do Python em [python.org](https://www.python.org/);
-
-- Vá para a seção de downloads e clique em "Downloads for Windows";
-
-- Escolha a versão mais recente do Python.
+    - Acesse o site oficial do Python em [python.org](https://www.python.org/);
+    
+    - Vá para a seção de downloads e clique em "Downloads for Windows";
+    
+    - Escolha a versão mais recente do Python.
 
 2.  **Executar o Instalador:**
-
-- Execute o arquivo baixado;
-
-- Certifique-se de marcar a opção "Add Python to PATH" durante a instalação.
+    
+    - Execute o arquivo baixado;
+    
+    - Certifique-se de marcar a opção "Add Python to PATH" durante a instalação.
 
 3.  **Concluir a Instalação:**
 
-- Siga as instruções do instalador;
+    - Siga as instruções do instalador;
+    
+    - Para verificar se o Python foi instalado corretamente, abra o prompt de comando e digite:
 
-- Para verificar se o Python foi instalado corretamente, abra o prompt de comando e digite:
+    `python --version`
 
-`python --version`
-
+----
  
- 
-#### Linux (Ubuntu/Debian):
+### Linux (Ubuntu/Debian):
 
   
 
@@ -103,17 +103,19 @@ O Indexer é um programa que realiza a contagem de palavras em documentos de tex
 
 >  **Essas instruções são baseadas em sistemas Windows e Ubuntu/Debian. Se estiver usando outra distribuição Linux, os comandos podem variar. Consulte a documentação da sua distribuição para informações mais específicas.**
 
-  
+------
 
-### Execução
+## Execução
 
 Acesse a pasta raiz (que possui o arquivo `indexer.py`) pelo terminal e utilize o comando:
 
   
 
-- Windows: `py indexer.py` + args
+- Windows: 
+    - `py indexer.py` + args
 
-- Linux: `python3 indexer.py` + args
+- Linux: 
+    - `python3 indexer.py` + args
 
 >**Observações:**
 
@@ -125,7 +127,7 @@ Acesse a pasta raiz (que possui o arquivo `indexer.py`) pelo terminal e utilize 
 
 >>`sudo chmod +x indexer.py`
 
-  
+---  
 
 ## Exemplos de Uso
 
