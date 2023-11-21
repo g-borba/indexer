@@ -33,18 +33,14 @@ class SearchRelevantFilesByTerms:
                 found_words = {}
 
                 for line in file:
-                    words = findall(r"\b\w+\b", line.lower())
+                    words = findall(r"\b[A-Za-z]{2,}\b", line.lower())
 
                     for word in words:
                         if word in term_list:
                             found_words[word] = 1
-                            total += 1
-
                             key = (path, word)
                             self.word_statistics[key].add_occurrence(key)
-                        else:
-                            if len(word) > 2 and word.isalpha():
-                                total += 1
+                        total += 1
 
                 for word in found_words.keys():
                     key = (path, word)
